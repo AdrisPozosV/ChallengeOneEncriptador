@@ -27,3 +27,9 @@ main{
     padding: 2px;
     text-transform: lowercase;
 }
+
+::placeholder {color:#0A3871;}
+    .text-area:focus{
+        outline: none;
+}
+
