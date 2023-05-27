@@ -52,3 +52,7 @@ main{
     outline: none;
 }
 
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
