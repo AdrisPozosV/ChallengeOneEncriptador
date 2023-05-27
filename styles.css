@@ -6,3 +6,9 @@
     line-height: 150%;
     overflow-y: hidden;
 }
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
