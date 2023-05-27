@@ -47,3 +47,8 @@ main{
     padding-left: 20px;
     position: fixed;
 }
+
+.mensaje:focus{
+    outline: none;
+}
+
