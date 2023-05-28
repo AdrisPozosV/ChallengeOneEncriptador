@@ -96,3 +96,10 @@ main{
     color: #495057;
     font-size:18px;
 }
+
+footer#pie {
+  background-color: #0A3871;
+  color: white; 
+  padding: 10px; 
+  text-align: left; 
+}
