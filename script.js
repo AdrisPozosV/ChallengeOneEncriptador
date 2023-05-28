@@ -63,3 +63,10 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada
 }
+
+function copiar(){
+    mensaje.select();
+    navigator.clipboard.writeText(mensaje.value)
+    mensaje.value = "";
+    alert("Texto Copiado")
+}
