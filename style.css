@@ -34,7 +34,7 @@ main{
     }
 
 .mensaje{
-    height: 630px;
+    height: auto;
     background: white;
     background-image: url("/imagenes/Muñeco.png");
     background-repeat: no-repeat;
@@ -45,7 +45,11 @@ main{
     margin-left: 98px;
     margin-top: 0px;
     padding-left: 20px;
-    position: fixed;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
 }
 
 .mensaje:focus {
