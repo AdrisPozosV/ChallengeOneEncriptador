@@ -20,12 +20,14 @@ main{
 }
 
 .text-area {
-    height: 400px;
+    height: auto;
+    width: 100%;
     border: none;
     color: #0A3871;
     margin-top: 30px;
     padding: 2px;
     text-transform: lowercase;
+    box-sizing: border-box;
 }
 
 ::placeholder { color: #0A3871; }
