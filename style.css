@@ -90,9 +90,6 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 120px;
-    margin-top: 565px;
-    position: absolute;
     width: 336px;
 }
 
@@ -162,3 +159,12 @@ footer#pie {
     }
   }
   
+  @media screen and (max-width:768px) {
+    .copiar {
+        position: static;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: auto;
+    }
+    
+  }
